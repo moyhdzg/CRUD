@@ -12,7 +12,7 @@ function add(){
     console.log(currentTask2)
     clean();
 }
-
+ 
 
 function clean () {
     document.getElementById("taskName").value = "";
