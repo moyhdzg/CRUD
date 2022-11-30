@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.barraHeader{
+    display: flex;
+    flex-direction:row;
+    width: 80%;
+    height: 64px;
+    margin: 3px;
+    padding:0%;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.ucamplogo{
+    border-radius: 999em;
+    height: 64px;
+    object-fit: contain;
+    
+}
+.titulo {
+    order:2;
+}
+.rellenoHeader{
+    order: 3;
+}
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.tableTitle, .tableTitle1, .tableTitle2, .tableTitle3 {
+    border:1px solid black;
+}

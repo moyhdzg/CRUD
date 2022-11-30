@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2 CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="barraHeader">
+                <div class="logo">
+                    <img class="ucamplogo" src="./ucamp.png" alt="">
+                </div>
+                <div class="titulo">mOe's  1st CRUD</div>
+                <div class="rellenoHeader">Enjoy!</div>
+        </header>
+        <div class="jumbotron">
+            <h1>CRUD</h1>
+            <pr> Proyecto No.2 del Fullstack</pr>
+            <pr>development bootcamp</pr>
+            <pr>Creacion de un modelo CRUD para</pr>
+            <pr>Agregar (Create), Leer (Read), Actualizar(Update) o Eliminar (Delete)</pr>
+            <pr>tareas o items en una webpage</pr>
+        </div>
+        <div class="mainWorkspace">
+                <div class="taskLabel">Tarea / Task</div>
+                <input class="taskN" id="taskName" />
+                <div class="descLabel">Descripcion / Description</div>
+                <input class="taskD" id="taskDesc" />
+        </div>
+        <div class="buttonArea">
+            <button id="agregar" onclick="add()">Agregar</button>
+        </div>
+        <hr size="2px" color="Black" width="70%"/>
+        <table>
+            <thead class="tableTitle">
+                <tr>
+                    <th scope="col" class="tableTitle1" >Elemento / Item</th>
+                    <th scope="col" class="tableTitle2">Tarea / task</th>
+                    <th scope="col" class="tableTitle3">Descripcion / Description</th>
+                    <th scope="col" class="editDelete"></th>
+                </tr>
+            </thead>
+            <tbody id="tableContent">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="./index.js" type="text/javascript"> </script>
+    <script src="./storage.js" type="text/javascript"> </script>
+    
+</body>
+</html>
